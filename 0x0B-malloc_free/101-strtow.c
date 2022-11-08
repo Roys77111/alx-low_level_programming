@@ -6,3 +6,7 @@
  *
  * Return: length of the string
  */
+
+int len(char *str)
+{
+	int len = 0;
