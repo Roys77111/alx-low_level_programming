@@ -1,8 +1,5 @@
-#ifndef Roys77111
-#define roys77111
-
-#include <stdio.h>
-#include <stdlib.h>
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 int _putchar(char c);
 int _islower(int c);
@@ -29,4 +26,4 @@ int sub(int a, int b);
 int mul(int a, int b);
 int div(int a, int b);
 int mod(int a, int b);
-#endif /* MAIN_H */
+#endif
