@@ -1,10 +1,14 @@
-#include "main.h"
+int add(int a, int b);
+int sub(int a, int b);
+int mul(int a, int b);
+int div(int a, int b);
+int mod(int a, int b);
 
  /**
-  * add - addition operator
-  * @a: first int
-  * @b: second int
-  * Return: sum of 2 numbers
+  * add - adds two integers
+  * @a: first int to add
+  * @b: second int to add
+  * Return: the sum
   */
  int add(int a, int b)
  {
@@ -12,10 +16,10 @@
  }
 
  /**
-  * sub - subtraction operator
-  * @a: first in
-  * @b: second int
-  * Return: difference of 2 numbers
+  * sub - subtracts two integers
+  * @a: first in to add
+  * @b: second int to add
+  * Return: the subtract
   */
  int sub(int a, int b)
  {
@@ -23,10 +27,10 @@
  }
 
  /**
-  * mul - product of 2 numbers
-  * @a: first int
-  * @b: second int
-  * Return: product of the numbers
+  * mul - multiplies two integers
+  * @a: first int to add
+  * @b: second int to add
+  * Return: the multiple
   */
  int mul(int a, int b)
  {
@@ -34,10 +38,10 @@
  }
 
  /**
-  * div - division of 2 numbers
-  * @a: first int
-  * @b: second int
-  * Return: result of the division of the numbers
+  * div - divideds two integers
+  * @a: first int to add
+  * @b: second int to add
+  * Return: the dividend integer
   */
  int div(int a, int b)
  {
@@ -46,9 +50,9 @@
 
  /**
   * mod - get remainder of the division of 2 numbers
-  * @a: first int
-  * @b: second int
-  * Return: remainder of division of the numbers
+  * @a: first int to add
+  * @b: second int to add
+  * Return: the modulus
   */
  int mod(int a, int b)
  {
